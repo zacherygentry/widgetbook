@@ -7,14 +7,14 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "39.0.0"
+    version: "38.0.0"
   analyzer:
     dependency: "direct main"
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "3.4.1"
   args:
     dependency: transitive
     description:
@@ -487,16 +487,20 @@ packages:
   widgetbook_annotation:
     dependency: "direct main"
     description:
-      path: "../widgetbook_annotation"
-      relative: true
-    source: path
+      path: "packages/widgetbook_annotation"
+      ref: HEAD
+      resolved-ref: cb05d512e6029a3c866b74a2ab9839e45a3e501d
+      url: "https://github.com/zacherygentry/widgetbook.git"
+    source: git
     version: "2.0.1"
   widgetbook_models:
     dependency: "direct main"
     description:
-      path: "../widgetbook_models"
-      relative: true
-    source: path
+      path: "packages/widgetbook_models"
+      ref: HEAD
+      resolved-ref: cb05d512e6029a3c866b74a2ab9839e45a3e501d
+      url: "https://github.com/zacherygentry/widgetbook.git"
+    source: git
     version: "0.0.6"
   yaml:
     dependency: transitive
