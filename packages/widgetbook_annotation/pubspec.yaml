@@ -12,7 +12,9 @@ environment:
 
 dependencies:
   widgetbook_models:
-    path: ../widgetbook_models
+    git:
+      url: https://github.com/zacherygentry/widgetbook.git
+      path: packages/widgetbook_models
 
 dev_dependencies:
   test: ^1.18.2

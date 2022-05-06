@@ -558,9 +558,11 @@ packages:
   widgetbook_models:
     dependency: "direct main"
     description:
-      path: "../widgetbook_models"
-      relative: true
-    source: path
+      path: "packages/widgetbook_models"
+      ref: HEAD
+      resolved-ref: f8f5b37b9b1e21aa7ae9f780738649382edc9f31
+      url: "https://github.com/zacherygentry/widgetbook.git"
+    source: git
     version: "0.0.6"
   yaml:
     dependency: transitive
